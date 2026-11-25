@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Global Ledger documentation preview</title>
+<link rel="icon" href="api-docs/img/gl-favicon.svg">
+<style>
+  :root { --navy: #0d1240; --blue: #3265f2; --text: #1b1f3b; --muted: #5b6078; --border: #dfe3ee; --bg: #f6f7fb; --card: #fff; }
+  @media (prefers-color-scheme: dark) { :root { --text: #eef0fa; --muted: #a9aecb; --border: #2b3160; --bg: #0a0e33; --card: #121848; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--bg); color: var(--text); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  header { background: var(--navy); padding: 16px 24px; }
+  header img { height: 30px; display: block; }
+  main { flex: 1; width: 100%; max-width: 860px; margin: 0 auto; padding: 48px 16px; }
+  h1 { margin: 0 0 8px; font-size: 1.9rem; line-height: 1.2; text-wrap: balance; }
+  p.lead { margin: 0 0 32px; color: var(--muted); }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  a.card { display: block; padding: 22px; border: 1px solid var(--border); border-radius: 10px; background: var(--card); color: inherit; text-decoration: none; transition: border-color .15s; }
+  a.card:hover, a.card:focus-visible { border-color: var(--blue); outline: none; }
+  a.card strong { display: block; margin-bottom: 6px; font-size: 1.15rem; color: var(--blue); }
+  a.card span { color: var(--muted); font-size: .95rem; }
+  footer { padding: 20px 16px; text-align: center; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<header><img src="api-docs/img/gl-logo-inverse.svg" alt="Global Ledger"></header>
+<main>
+  <h1>Documentation preview</h1>
+  <p class="lead">Two separate sites. This preview is for review and is not the final address.</p>
+  <div class="cards">
+    <a class="card" href="api-docs/"><strong>API Documentation</strong><span>Version 4.1: reference, guides, webhooks, OpenAPI files and Postman collections.</span></a>
+    <a class="card" href="user-guide/"><strong>User Guide</strong><span>Version 1.3: how to use the Global Ledger platform, module by module.</span></a>
+  </div>
+</main>
+<footer>Preview published on 25 November 2026</footer>
+</body>
+</html>
